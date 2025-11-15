@@ -1,0 +1,41 @@
+{
+  "LevelName": "Strategy unless you think so.",
+  "Introduction": { "en": "Welcome to my horrendous level!" },
+  "GameVersion": "0.1.1",
+  "Version": "1.0",
+  "CreatedAt": "2025-11-14",
+  "UpdatedAt": "2025-11-14",
+  "Difficulty": "Hard",
+  "Category": "Adventure",
+  "Scene": "ModernDay",
+
+  "Waves": [
+    { "wave": 1, "zombies": [ { "type": "BasicZombie", "row": "random", "delay": 0, "count": 1 } ] },
+    { "wave": 2, "zombies": [ { "type": "BasicZombie", "row": "random", "delay": 0, "count": 2 } ] },
+    { "wave": 3, "zombies": [ { "type": "ConeheadZombie", "row": "random", "delay": 0, "count": 1 } ] },
+    { "wave": 4, "zombies": [ { "type": "BasicZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "RaZombie", "row": "random", "delay": 2, "count": 1 } ] },
+    { "wave": 5, "zombies": [ { "type": "ConeheadZombie", "row": "random", "delay": 0, "count": 1 }, { "type": "BasicZombie", "row": "random", "delay": 2, "count": 1 } ] },
+    { "wave": 6, "zombies": [ { "type": "BucketheadZombie", "row": "random", "delay": 0, "count": 1 }, { "type": "NewspaperZombie", "row": "random", "delay": 0, "count": 1 } ] },
+    { "wave": 7, "zombies": [ { "type": "RaZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "ConeheadZombie", "row": "random", "delay": 2, "count": 1 } ] },
+
+    { "wave": 8, "flag": true, "zombies": [
+      { "type": "BucketheadZombie", "row": "random", "delay": 0, "count": 2 },
+      { "type": "RaZombie", "row": "random", "delay": 2, "count": 2 },
+      { "type": "BasicZombie", "row": "random", "delay": 3, "count": 4 }, { "type": "ConeheadZombie", "row": "random", "delay": 4, "count": 3 }, { "type": "NewspaperZombie", "row": "random", "delay": 1, "count": 1 }
+    ] },
+
+    { "wave": 9, "zombies": [ { "type": "ConeheadZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "BasicZombie", "row": "random", "delay": 2, "count": 1 } ] },
+    { "wave": 10, "zombies": [ { "type": "ShieldZombie", "row": "random", "delay": 0, "count": 1 }, { "type": "BucketheadZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "BasicZombie", "row": "random", "delay": 2, "count": 2 } ] },
+    { "wave": 11, "zombies": [ { "type": "RaZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "ConeheadZombie", "row": "random", "delay": 0, "count": 2 } ] },
+    { "wave": 12, "zombies": [ { "type": "ChickenWranglerZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "NewspaperZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "BasicZombie", "row": "random", "delay": 2, "count": 2 } ] },
+    { "wave": 13, "zombies": [ { "type": "BucketheadZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "SnowballZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "ConeheadZombie", "row": "random", "delay": 1, "count": 1 } ] },
+    { "wave": 14, "zombies": [ { "type": "ShieldZombie", "row": "random", "delay": 0, "count": 1 }, { "type": "BasicZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "ConeheadZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "SnowballZombie", "row": "random", "delay": 3, "count": 2 } ] },
+    { "wave": 15, "zombies": [ { "type": "BucketheadZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "ConeheadZombie", "row": "random", "delay": 0, "count": 1 }, { "type": "RaZombie", "row": "random", "delay": 2, "count": 1 }, { "type": "ChickenWranglerZombie", "row": "random", "delay": 2, "count": 1 } ] },
+
+    { "wave": 16, "flag": true, "zombies": [
+      { "type": "GargantuarZombie", "row": "random", "delay": 3, "count": 1 },
+      { "type": "BucketheadZombie", "row": "random", "delay": 1, "count": 3 },
+      { "type": "ConeheadZombie", "row": "random", "delay": 1, "count": 2 }, { "type": "BasicZombie", "row": "random", "delay": 2, "count": 2 }, { "type": "ShieldZombie", "row": "random", "delay": 0, "count": 2 }, { "type": "SnowballZombie", "row": "random", "delay": 2, "count": 2 }, { "type": "ChickenWranglerZombie", "row": "random", "delay": 1, "count": 1 }, { "type": "NewspaperZombie", "row": "random", "delay": 2, "count": 2 }
+    ] }
+  ]
+}
